@@ -4,7 +4,7 @@ namespace Jontyy\ResqueLoner;
 
 trait UniqueJobTrait
 {
-    public function getLonerKey()
+    public static function getLonerKey()
     {
         return true;
     }
